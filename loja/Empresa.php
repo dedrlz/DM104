@@ -93,7 +93,7 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php include "principal.php";?><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" -->EMPRESA<!-- InstanceEndEditable --></td>
    <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
    <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
   </tr>

@@ -123,8 +123,16 @@ session_start();
     <td height="32" colspan="3" align="right" bgcolor="#FFCC33">TOTAL</td>
     <td colspan="2" align="center" bgcolor="#FFCC33"><?php if (isset($total)) echo $total ?></td>
   </tr>
+  <tr>
+    <td height="32" align="right" bgcolor="#FFCC33">&nbsp;</td>
+    <td height="32" align="right" bgcolor="#FFCC33">&nbsp;</td>
+    <td height="32" align="right" bgcolor="#FFCC33"><form id="form1" name="form1" method="post" action="confirmar.php">
+      <input type="submit" name="button" id="button" value="Confirmar Compra" />
+    </form></td>
+    <td colspan="2" align="center" bgcolor="#FFCC33">&nbsp;</td>
+  </tr>
 </table>
 <p>&nbsp;</p>
-<p><a href="index.php">Voltar</a></p>
+<p><a href="produtos.php">Voltar</a></p>
 </body>
 </html>

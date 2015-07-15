@@ -84,7 +84,7 @@ function MM_preloadImages() { //v3.0
    <td><img name="index_r5_c2" src="Template/index_r5_c2.png" width="4" height="38" id="index_r5_c2" alt="" /></td>
    <td colspan="2"><a href="produtos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c3','','Template/index_r5_c3_s2.png',1)"><img name="index_r5_c3" src="Template/index_r5_c3.png" width="203" height="38" id="index_r5_c3" alt="" /></a></td>
    <td><img name="index_r5_c5" src="Template/index_r5_c5.png" width="3" height="38" id="index_r5_c5" alt="" /></td>
-   <td colspan="3"><a href="Mais%20Vendidos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c6','','Template/index_r5_c6_s2.png',1)"><img name="index_r5_c6" src="Template/index_r5_c6.png" width="201" height="38" id="index_r5_c6" alt="" /></a></td>
+   <td colspan="3"><a href="Mais Vendidos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c6','','Template/index_r5_c6_s2.png',1)"><img name="index_r5_c6" src="Template/index_r5_c6.png" width="201" height="38" id="index_r5_c6" alt="" /></a></td>
    <td><img name="index_r5_c9" src="Template/index_r5_c9.png" width="4" height="38" id="index_r5_c9" alt="" /></td>
    <td colspan="2"><a href="Empresa.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c10','','Template/index_r5_c10_s2.png',1)"><img name="index_r5_c10" src="Template/index_r5_c10.png" width="201" height="38" id="index_r5_c10" alt="" /></a></td>
    <td><img name="index_r5_c12" src="Template/index_r5_c12.png" width="4" height="38" id="index_r5_c12" alt="" /></td>
@@ -93,7 +93,7 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php include "principal.php";?><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php include "dadoslogin.php";?><!-- InstanceEndEditable --></td>
    <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
    <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
   </tr>

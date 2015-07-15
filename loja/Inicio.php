@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+﻿<?php include "restricao.php" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0014)about:internet -->
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/teste3.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -93,7 +94,7 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php include "principal.php";?><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php If (isSet($_SESSION['minhasessao'])) {echo $_SESSION['minhasessao'] ['nome'];} else echo 'teste'; ?><!-- InstanceEndEditable --></td>
    <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
    <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
   </tr>

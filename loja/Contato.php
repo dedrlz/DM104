@@ -93,7 +93,34 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php include "principal.php";?><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" -->
+     <form id="form1" name="form1" method="post" action="enviarEmail.php">
+       <p>
+         <label for="Nome">Nome</label>
+         <input type="text" name="nome" id="Nome" />
+       </p>
+       <p>
+         <label for="E-Mail">E-Mail</label>
+         <input type="text" name="email" id="E-Mail" />
+       </p>
+       <p>
+         <label for="Telefone">Telefone</label>
+         <input type="text" name="telefone" id="Telefone" />
+       </p>
+       <p>
+         <label for="Assunto">Assunto</label>
+         <input type="text" name="assunto" id="Assunto" />
+       </p>
+       <p>
+         <label>Mensagem
+           <input name="mensagem" type="text" id="Mensagem" value="" size="150" />
+         </label>
+       </p>
+       <p>
+         <input type="submit" name="Enviar" id="Enviar" value="Enviar" />
+       </p>
+     </form>
+   <!-- InstanceEndEditable --></td>
    <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
    <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
   </tr>

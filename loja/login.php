@@ -1,4 +1,4 @@
-﻿<?php include "..\conecta.php" ?>
+﻿<?php include "conecta.php" ?>
 <?php 
 $usuariol = $_POST['user'];
 $passl = $_POST['pass'];
@@ -39,10 +39,7 @@ exit;
 	}
 	else {
 		$resultado = 'nao';
-		}
-		 
-		
-		
+		}	
 		}
 	
 			}

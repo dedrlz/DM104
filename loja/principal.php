@@ -5,11 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Loja Virtual</title>
-<style type="text/css">
-body,td,th {
-	color: #000;
-}
-</style>
 </head>
 
 <body>

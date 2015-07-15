@@ -10,8 +10,12 @@
   <p>
     <label for="user">Usuario</label>
     <input type="text" name="user" id="user" />
+  </p>
+  <p>
     <label for="pass">Password</label>
-    <input type="text" name="pass" id="pass" />
+    <input type="password" name="pass" id="pass" />
+  </p>
+  <p>
     <input type="submit" name="button" id="button" value="Entrar" />
   </p>
 </form>
