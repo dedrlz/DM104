@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+﻿<?php include "restricao.php" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0014)about:internet -->
 <html><!-- InstanceBegin template="/Templates/teste3.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -80,7 +81,7 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="168" alt="" /></td>
   </tr>
   <tr>
-   <td><a href="Inicio.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c1','','Template/index_r5_c1_s2.png',1)"><img name="index_r5_c1" src="Template/index_r5_c1.png" width="200" height="38" id="index_r5_c1" alt="" /></a></td>
+   <td><a href="index.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c1','','Template/index_r5_c1_s2.png',1)"><img name="index_r5_c1" src="Template/index_r5_c1.png" width="200" height="38" id="index_r5_c1" alt="" /></a></td>
    <td><img name="index_r5_c2" src="Template/index_r5_c2.png" width="4" height="38" id="index_r5_c2" alt="" /></td>
    <td colspan="2"><a href="produtos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c3','','Template/index_r5_c3_s2.png',1)"><img name="index_r5_c3" src="Template/index_r5_c3.png" width="203" height="38" id="index_r5_c3" alt="" /></a></td>
    <td><img name="index_r5_c5" src="Template/index_r5_c5.png" width="3" height="38" id="index_r5_c5" alt="" /></td>
@@ -93,7 +94,7 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><h1>Bem Vindo a Loja Virtual !</h1> <br /> Aqui você encontra os mais variados produtos com o melhor preço da web !<!-- InstanceEndEditable --></td>
    <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
    <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
   </tr>

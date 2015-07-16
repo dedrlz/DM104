@@ -1,12 +1,4 @@
-﻿<?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$banco = "loja";
-$conexao = mysql_connect($host,$user,$pass) or die(mysql_error());
-mysql_select_db($banco) or die (mysql_error());
-?>
-        
+﻿<?php include "conecta.php" ?>
 <?php
 $nome = $_POST['nome'];
 $usuario= $_POST['usuario'];

@@ -53,7 +53,6 @@
 		$preco = $linha['preco'];
 		$quant = $linha['quantidade'];
 		$data = $linha['data'];
-		//$adicionar = '<a href="carrinho.php?id='.$linha['id'].'"title="'.$linha['id'].'"> Adicionar </a>'
    ?>  
   <tr>
     <td align="center" bgcolor="#FFFF99"><?php  echo $id; ?></td>
