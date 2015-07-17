@@ -21,7 +21,7 @@
   </p>
   <p>
     <label for="textfield4">Data</label>
-    <input type="text" name="data" id="textfield4" />
+    <input name="data" type="text" id="textfield4" value = "<?php echo date('Y/m/d'); ?>" readonly="readonly" />
   </p>
   <p>
     <input type="submit" name="button" id="button" value="Confirmar" />

@@ -2,7 +2,10 @@
 ?>
 <?php
 $ID = $_POST['ID'];
-$imagem = "imagens/".$_POST['imagem'];
+if (!empty($_FILES['imagem']['name'])) {
+$imagem = "imagens/".$_FILES['imagem']['name'];}
+else
+$imagem = $_POST['caminhoImagem'];
 $nome= $_POST['nome'];
 $descricao= $_POST['descricao'];
 $preco= $_POST['preco'];
