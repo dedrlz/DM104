@@ -1,4 +1,4 @@
-﻿<?php include "restricao.php" ?>
+<?php include "restricao.php" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0014)about:internet -->
@@ -94,7 +94,7 @@ function MM_preloadImages() { //v3.0
    <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><h1>Bem Vindo a Loja Virtual !</h1> <br /> Aqui você encontra os mais variados produtos com o melhor preço da web !<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><?php include "facelike.php" ?><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><h1> <?php include "facelike.php" ?></h1><h1>Bem Vindo a Loja Virtual !</h1>  <br /> Aqui você encontra os mais variados produtos com o melhor preço da web !<br /><!-- InstanceEndEditable --></td>
    <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
    <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
   </tr>
