@@ -1,7 +1,6 @@
 ﻿<?php include ('conecta.php');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Carrinho de Compras</title>
@@ -99,10 +98,7 @@ session_start();
       <input name="id2" type="hidden" value="<?php echo $i ?>" />
     <input name="quantidade2" type="text" id="quantidade2" value="<?php echo $meucarrinho [$i] ['quantidade'] ?>" size="2" maxlength="2" />
     <input type="image" src="imagens/atualizacao.jpg" align="middle" width = "25" height = "25"/>
-    
-    
-    
-    
+
     </form></td>
     
     <?php 
@@ -127,6 +123,8 @@ session_start();
     <td height="32" align="right" bgcolor="#FFCC33">&nbsp;</td>
     <td height="32" align="right" bgcolor="#FFCC33">&nbsp;</td>
     <td height="32" align="right" bgcolor="#FFCC33"><form id="form1" name="form1" method="post" action="confirmar.php">
+      <input name="carrinho" type="hidden" value="<?php $_SESSION["dados"] = $meucarrinho; ?>" />
+      <input name="total" type="hidden" value="<?php echo $total ?>" />
       <input type="submit" name="button" id="button" value="Confirmar Compra" />
     </form></td>
     <td colspan="2" align="center" bgcolor="#FFCC33">&nbsp;</td>

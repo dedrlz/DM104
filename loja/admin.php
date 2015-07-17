@@ -6,7 +6,7 @@
     <td colspan="9" align="center" bgcolor="#999999"><strong>LISTA DE PRODUTOS</strong></td>
   </tr>
   <tr>
-    <td height="39" colspan="9" align="center" valign="middle" bgcolor="#CCCCCC"><form name="form3" method="post" action="">
+    <td height="39" colspan="9" align="center" valign="middle" bgcolor="#CCCCCC"><form name="form3" method="post" action="LayoutIncluir.php">
       <input type="submit" name="Incluir" id="Incluir" value="Incluir Novos Produtos">
     </form></td>
   </tr>
@@ -63,3 +63,5 @@
    }
 ?>
 </table>
+<p>&nbsp;</p>
+<p><a href="SairdaSessao.php">Sair do Módulo Administrador</a></p>

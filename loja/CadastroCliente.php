@@ -17,7 +17,7 @@
   </p>
   <p>
     <label for="textfield3">Password</label>
-    <input type="text" name="password" id="textfield3" />
+    <input type="password" name="password" id="textfield3" />
   </p>
   <p>
     <label for="textfield4">Data</label>

@@ -6,7 +6,7 @@
   </p>
   <p>
     <label>Imagem
-      <input type="text" name="caminhoImagem" id="caminhoImagem" value = "<?php echo $_POST['imagem']; ?>" />
+      <input name="caminhoImagem" type="text" id="caminhoImagem" value = "<?php echo $_POST['imagem']; ?>" readonly="readonly" />
 <input type="file" name="imagem" id="textfield2" >
     </label>
   </p>

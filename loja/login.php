@@ -19,7 +19,6 @@ while ($linhas = mysql_fetch_array($consulta) and $porta = 'continuar' ){
 	if (isset($usuariol) and isset ($passl)){
 		if (($usuario == $usuariol) and ($pass == $passl)) {
 			echo 'Bem vindo '.$nome;
-			$_SESSION['logado'] = true;
 			
 			$minhasessao = array ('id' => $id,'nome' => $nome, 'usuario' => $usuario, 'pass' => $pass, 'permissoes' => $permissoes, 'data' => $data);
 
