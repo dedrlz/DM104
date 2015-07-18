@@ -1,3 +1,7 @@
+<?php include "restricao.php" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
 <html><!-- InstanceBegin template="/Templates/teste3.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -40,15 +44,15 @@ function MM_preloadImages() { //v3.0
   <tr>
    <td class="w200h1"><img src="Template/spacer.gif"/> </td>
    <td class="w4h1"><img src="Template/spacer.gif"/> </td>
-   <td><img src="Template/spacer.gif" width="199" height="1"/></td>
+   <td class="w199h1"><img src="Template/spacer.gif" width="199" height="1"/></td>
    <td class="w4h1"><img src="Template/spacer.gif"/> </td>
    <td class="w3h1"><img src="Template/spacer.gif"/> </td>
-   <td><img src="Template/spacer.gif" width="96" height="1" /></td>
+   <td class="w96h1"><img src="Template/spacer.gif" width="96" height="1" /></td>
    <td class="w70h1"><img src="Template/spacer.gif"/> </td>
-   <td><img src="Template/spacer.gif" width="35" height="1" /></td>
+   <td class="w35h1"><img src="Template/spacer.gif" width="35" height="1" /></td>
    <td class="w4h1"><img src="Template/spacer.gif"/> </td>
-   <td><img src="Template/spacer.gif" width="8" height="1"/></td>
-   <td><img src="Template/spacer.gif" width="193" height="1"/></td>
+   <td class="w8h1"><img src="Template/spacer.gif" width="8" height="1"/></td>
+   <td class="w193h1"><img src="Template/spacer.gif" width="193" height="1"/></td>
    <td class="w4h1"><img src="Template/spacer.gif"/> </td>
    <td class="w201h1"><img src="Template/spacer.gif"/> </td>
    <td class="w1h1"><img src="Template/spacer.gif"/> </td>
@@ -96,42 +100,70 @@ function MM_preloadImages() { //v3.0
    
    <td class="w1h17"><img src="Template/spacer.gif"/></td>
    
-      
-         
-    <!-- CONTINUE -->        
-               
+             
                   
                         
   </tr>
   <tr>
-   <td rowspan="2" colspan="3"><img name="index_r3_c8" src="Template/index_r3_c8.png" width="47" height="175" id="index_r3_c8" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="7" alt="" /></td>
+   <td rowspan="2" colspan="3" class="w47h175"><img name="index_r3_c8" src="Template/index_r3_c8.png" id="index_r3_c8"/></td>
+   <td class="w1h7"><img src="Template/spacer.gif"/></td>
   </tr>
+  
+  
+  
   <tr>
-   <td colspan="3"><img name="index_r4_c4" src="Template/index_r4_c4.png" width="103" height="168" id="index_r4_c4" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="168" alt="" /></td>
+   <td colspan="3" class="w103h168"><img name="index_r4_c4" src="Template/index_r4_c4.png" id="index_r4_c4"/></td>
+   <td class="w1h168"><img src="Template/spacer.gif"/></td>
   </tr>
+  
+  
   <tr>
-   <td><a href="index.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c1','','Template/index_r5_c1_s2.png',1)"><img name="index_r5_c1" src="Template/index_r5_c1.png" width="200" height="38" id="index_r5_c1" alt="" /></a></td>
-   <td><img name="index_r5_c2" src="Template/index_r5_c2.png" width="4" height="38" id="index_r5_c2" alt="" /></td>
-   <td colspan="2"><a href="produtos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c3','','Template/index_r5_c3_s2.png',1)"><img name="index_r5_c3" src="Template/index_r5_c3.png" width="203" height="38" id="index_r5_c3" alt="" /></a></td>
-   <td><img name="index_r5_c5" src="Template/index_r5_c5.png" width="3" height="38" id="index_r5_c5" alt="" /></td>
-   <td colspan="3"><a href="Mais%20Vendidos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c6','','Template/index_r5_c6_s2.png',1)"><img name="index_r5_c6" src="Template/index_r5_c6.png" width="201" height="38" id="index_r5_c6" alt="" /></a></td>
-   <td><img name="index_r5_c9" src="Template/index_r5_c9.png" width="4" height="38" id="index_r5_c9" alt="" /></td>
-   <td colspan="2"><a href="Empresa.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c10','','Template/index_r5_c10_s2.png',1)"><img name="index_r5_c10" src="Template/index_r5_c10.png" width="201" height="38" id="index_r5_c10" alt="" /></a></td>
-   <td><img name="index_r5_c12" src="Template/index_r5_c12.png" width="4" height="38" id="index_r5_c12" alt="" /></td>
-   <td><a href="Contato.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c13','','Template/index_r5_c13_s2.png',1)"><img name="index_r5_c13" src="Template/index_r5_c13.png" width="201" height="38" id="index_r5_c13" alt="" /></a></td>
-   <td colspan="2"><img name="index_r5_c14" src="Template/index_r5_c14.png" width="3" height="38" id="index_r5_c14" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="38" alt="" /></td>
+   <td class="w200h38"><a href="index.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c1','','Template/index_r5_c1_s2.png',1)"><img name="index_r5_c1" src="Template/index_r5_c1.png" id="index_r5_c1"/></a></td>
+   
+   
+   <td class="w4h38"><img name="index_r5_c2" src="Template/index_r5_c2.png" id="index_r5_c2"/></td>
+   
+   
+   <td colspan="2" class="w203h38"><a href="produtos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c3','','Template/index_r5_c3_s2.png',1)"><img name="index_r5_c3" src="Template/index_r5_c3.png" id="index_r5_c3" /></a></td>
+   
+   
+   <td class="w3h38"><img name="index_r5_c5" src="Template/index_r5_c5.png" id="index_r5_c5" /></td>
+   
+   
+
+   <td colspan="3" class="w201h38"><a href="Mais%20Vendidos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c6','','Template/index_r5_c6_s2.png',1)"><img name="index_r5_c6" src="Template/index_r5_c6.png" id="index_r5_c6" /></a></td>
+   
+   
+   <td class="w4h38"><img name="index_r5_c9" src="Template/index_r5_c9.png" id="index_r5_c9" /></td>
+   
+   
+   <td colspan="2" class="w201h38"><a href="Empresa.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c10','','Template/index_r5_c10_s2.png',1)"><img name="index_r5_c10" src="Template/index_r5_c10.png" id="index_r5_c10" /></a></td>
+   
+   
+   <td class="w4h38"><img name="index_r5_c12" src="Template/index_r5_c12.png" id="index_r5_c12" /></td>
+   
+   
+   <td class="w201h38"><a href="Contato.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c13','','Template/index_r5_c13_s2.png',1)"><img name="index_r5_c13" src="Template/index_r5_c13.png" id="index_r5_c13" /></a></td>
+   
+   
+   <td colspan="2" class="w3h38"><img name="index_r5_c14" src="Template/index_r5_c14.png" id="index_r5_c14"/></td>
+   
+   
+   <td class="w1h38"><img src="Template/spacer.gif"/></td>
   </tr>
+  
+  
   <tr>
    <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><h1> <?php include "facelike.php" ?></h1><h1>Bem Vindo a Loja Virtual !</h1>  <br /> Aqui você encontra os mais variados produtos com o melhor preço da web !<br /><!-- InstanceEndEditable --></td>
-   <td rowspan="2"><img name="index_r6_c15" src="Template/index_r6_c15.png" width="2" height="545" id="index_r6_c15" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="513" alt="" /></td>
+   
+   
+   <td rowspan="2" class="w2h545"><img name="index_r6_c15" src="Template/index_r6_c15.png" id="index_r6_c15" /></td>
+   <td class="w1h513"><img src="Template/spacer.gif" /></td>
   </tr>
   <tr>
-   <td colspan="14"><img name="rodape" src="Template/rodape.png" width="1022" height="32" id="rodape" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="32" alt="" /></td>
+  
+   <td colspan="14" class="w1022h32"><img name="rodape" src="Template/rodape.png" id="rodape" /></td>
+   <td class="w1h32"><img src="Template/spacer.gif"/></td>
   </tr>
 </table>
 </body>
