@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+.message-box{
+    width: 300px;
+    height: 20px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.information {
+     background-color: #BDE5F8; 
+    color: #00529B;
+    border-color: #00529B;
+}
+
+
+.w193h1{
+    width: 193px;
+    height: 1px;
+}
+
+.w200h1{
+    width: 200px;
+    height: 1px;
+}
+
+.w4h1{
+    width: 4px;
+    height: 1px;
+}
+
+.w199h1{
+    width: 199px;
+    height: 1px;
+}
+
+.AA{
+    width: 199px;
+    height: 1px;
+}
+
+.w3h1{
+    width: 3px;
+    height: 1px;
+}
+
+.w96h1{
+    width: 96px;
+    height: 1px;
+}
+
+.w70h1{
+    width: 70px;
+    height: 1px;
+}
+
+.w35h1{
+    width: 35px;
+    height: 1px;
+}
+
+.w8h1{
+    width: 8px;
+    height: 1px;
+}
+
+
+
+.w201h1{
+    width: 201px;
+    height: 1px;
+}
+
+.w1h1{
+    width: 1px;
+    height: 1px;
+}
+
+.w2h1{
+    width: 2px;
+    height: 1px;
+}
+
+
+.w1024h25{
+    width: 1024px;
+    height: 25px;
+}
+
+.w1h17{
+    width: 1px;
+    height: 17px;
+}
+
+.w1h25{
+    width: 1px;
+    height: 25px;
+}
+
+.w401h192{
+    width: 401px;
+    height: 192px;
+}
+
+.w403h192{
+    width: 403px;
+    height: 192px;
+}
+
+.w103h24{
+    width: 103px;
+    height: 24px;
+}
+
+.w70h192{
+    width: 70px;
+    height: 192px;
+}
+
+.w47h17{
+    width: 47px;
+    height: 17px;
+}
+
+
+
+
+
+
+

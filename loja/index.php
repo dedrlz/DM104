@@ -38,35 +38,70 @@ function MM_preloadImages() { //v3.0
 <table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="1024">
 <!-- fwtable fwsrc="layout.fw.png" fwpage="Página 1" fwbase="index.png" fwstyle="Dreamweaver" fwdocid = "1085286222" fwnested="0" -->
   <tr>
-   <td><img src="Template/spacer.gif" width="200" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="4" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="199" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="4" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="3" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="96" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="70" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="35" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="4" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="8" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="193" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="4" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="201" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="2" height="1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="1" alt="" /></td>
+   <td class="w200h1"><img src="Template/spacer.gif"/> </td>
+   <td class="w4h1"><img src="Template/spacer.gif"/> </td>
+   <td><img src="Template/spacer.gif" width="199" height="1"/></td>
+   <td class="w4h1"><img src="Template/spacer.gif"/> </td>
+   <td class="w3h1"><img src="Template/spacer.gif"/> </td>
+   <td><img src="Template/spacer.gif" width="96" height="1" /></td>
+   <td class="w70h1"><img src="Template/spacer.gif"/> </td>
+   <td><img src="Template/spacer.gif" width="35" height="1" /></td>
+   <td class="w4h1"><img src="Template/spacer.gif"/> </td>
+   <td><img src="Template/spacer.gif" width="8" height="1"/></td>
+   <td><img src="Template/spacer.gif" width="193" height="1"/></td>
+   <td class="w4h1"><img src="Template/spacer.gif"/> </td>
+   <td class="w201h1"><img src="Template/spacer.gif"/> </td>
+   <td class="w1h1"><img src="Template/spacer.gif"/> </td>
+   <td class="w2h1"><img src="Template/spacer.gif"/> </td>
+   <td class="w1h1"><img src="Template/spacer.gif"/></td>
   </tr>
 
   <tr>
-   <td colspan="15"><img name="index_r1_c1" src="Template/index_r1_c1.png" width="1024" height="25" id="index_r1_c1" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="25" alt="" /></td>
+  
+  <td colspan="15" class="w1024h25">
+     <img name="index_r1_c1" src="Template/index_r1_c1.png" id="index_r1_c1"/>
+  </td>
+
+  <td class="w1h25">
+     <img src="Template/spacer.gif"/>
+  </td>
+  
   </tr>
   <tr>
-   <td rowspan="3" colspan="3"><img name="index_r2_c1" src="Template/index_r2_c1.png" width="403" height="192" id="index_r2_c1" alt="" /></td>
-   <td rowspan="2" colspan="3"><a href="CadastroClientePrincipal.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r2_c4','','Template/index_r2_c4_s2.png',1)"><img name="index_r2_c4" src="Template/index_r2_c4.png" width="103" height="24" id="index_r2_c4" alt="" /></a></td>
-   <td rowspan="3"><img name="index_r2_c7" src="Template/index_r2_c7.png" width="70" height="192" id="index_r2_c7" alt="" /></td>
-   <td colspan="3"><a href="logar.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r2_c8','','Template/index_r2_c8_s2.png',1)"><img name="index_r2_c8" src="Template/index_r2_c8.png" width="47" height="17" id="index_r2_c8" alt="" /></a></td>
-   <td rowspan="3" colspan="5"><img name="index_r2_c11" src="Template/index_r2_c11.png" width="401" height="192" id="index_r2_c11" alt="" /></td>
-   <td><img src="Template/spacer.gif" width="1" height="17" alt="" /></td>
+  
+   <td rowspan="3" colspan="3" class="w403h192">
+     <img name="index_r2_c1" src="Template/index_r2_c1.png" id="index_r2_c1"/>
+  </td>
+   
+   
+   <td rowspan="2" colspan="3" class="w103h24">
+     <a href="CadastroClientePrincipal.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r2_c4','','Template/index_r2_c4_s2.png',1)">
+     <img name="index_r2_c4" src="Template/index_r2_c4.png" id="index_r2_c4"/></a>
+  </td>
+
+   
+   
+   <td rowspan="3" class="w70h192">
+     <img name="index_r2_c7" src="Template/index_r2_c7.png" id="index_r2_c7"/>
+  </td>
+   
+   <td colspan="3" class="w47h17">
+     <a href="logar.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r2_c8','','Template/index_r2_c8_s2.png',1)">
+     <img name="index_r2_c8" src="Template/index_r2_c8.png" id="index_r2_c8"/></a>
+  </td>
+
+   <td rowspan="3" colspan="5" class="w401h192">
+   <img name="index_r2_c11" src="Template/index_r2_c11.png" id="index_r2_c11"/>
+   </td>
+   
+   <td class="w1h17"><img src="Template/spacer.gif"/></td>
+   
+      
+         
+    <!-- CONTINUE -->        
+               
+                  
+                        
   </tr>
   <tr>
    <td rowspan="2" colspan="3"><img name="index_r3_c8" src="Template/index_r3_c8.png" width="47" height="175" id="index_r3_c8" alt="" /></td>
