@@ -1,0 +1,35 @@
+#tabelaProdutos {
+	background-color: #FF9966;
+	text-align:center;
+	width: 706; 
+	height: 186;
+}
+#imagemListaProdutos
+{
+	width: 70; 
+	height: 70;
+	}
+#produtos {
+	background-color: #FFFF99;
+	
+	}
+#cabecalhoLista {
+	background-color: #CCCCCC;
+	}
+#imagemCarrinho {
+	width: 100; 
+	height: 100;
+}
+#tabelaCarrinho {
+	background-color: #FF9966;
+	width: 414; 
+	border: medium;
+	text-align:center;	
+}
+#imagemAtualizacao{
+	width : 20px;
+	height : 20px;
+}
+#total {
+	text-align:right;
+	}
