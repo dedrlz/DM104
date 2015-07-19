@@ -33,7 +33,8 @@ if (!empty($_SESSION['minhasessao'] ['nome']))
    for ($i=0; $i < count($_SESSION['carrinho']) ; $i++) { 
        $idProduto = $_SESSION['carrinho'][$i]['id'];
 	   $quantidade = $_SESSION['carrinho'][$i]['quantidade'];
-	   mysql_query ("INSERT INTO itenspedido(idProduto, idPedido, quantidade) VALUES ('$idProduto','$proximoID','$quantidade')");
+	   $valoruni = $_SESSION['carrinho'][$i]['preco'];
+	   mysql_query ("INSERT INTO itenspedido(idProduto, idPedido, quantidade,valorUnitario) VALUES ('$idProduto','$proximoID','$quantidade','$valoruni')");
    }
     $_SESSION['carrinho'] = NULL;
 ?>

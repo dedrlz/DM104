@@ -44,6 +44,7 @@ id int not null auto_increment,
 idProduto int,
 idPedido int,
 quantidade int,
+valorUnitario real,
 primary key (id),
 FOREIGN KEY (idProduto) REFERENCES produtos (id),
 FOREIGN KEY (idPedido) REFERENCES pedidos (id)

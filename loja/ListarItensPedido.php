@@ -35,7 +35,7 @@ $idPedido = $_POST['id'];
 		$imagem = $linha['imagem'];
 		$nome = $linha['nome'];
 		$descricao = $linha['descricao'];
-		$preco = $linha['preco'];
+		$preco = $linha['valorUnitario'];
 		$quantidade = $linha['quantidade'];
    ?>  
   <tr id="produtos">

@@ -69,6 +69,6 @@
 ?>
 </table>
 <p>&nbsp;</p>
-<p><a href="SairdaSessao.php">Sair do Módulo Administrador</a></p>
+<h1><a href="SairdaSessao.php">Sair do Módulo Administrador</a></h1>
 </body>
 </html>

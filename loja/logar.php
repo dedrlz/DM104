@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!-- saved from url=(0014)about:internet -->
 <html><!-- InstanceBegin template="/Templates/teste3.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
@@ -148,7 +149,7 @@ function MM_preloadImages() { //v3.0
    <td class="w1h38"><img src="Template/spacer.gif"/></td>
   </tr>
   <tr>
-   <td colspan="14" valign="top"> <?php include "facelike.php" ?><!-- InstanceBeginEditable name="body" --><?php include "dadoslogin.php"; ?><!-- InstanceEndEditable --></td>
+   <td colspan="14" valign="top"><!-- InstanceBeginEditable name="body" --><?php include "facelike.php"; include"dadoslogin.php"; ?><!-- InstanceEndEditable --></td>
    <td rowspan="2" class="w2h545"><img name="index_r6_c15" src="Template/index_r6_c15.png" id="index_r6_c15" /></td>
    <td class="w1h513"><img src="Template/spacer.gif" /></td>
   </tr>

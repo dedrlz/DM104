@@ -47,7 +47,7 @@ exit;
 	 <html>
      <head>
      </head>
-     <meta http-equiv="refresh" content="3; url = logar.php">
+     <meta http-equiv="refresh" content="2; url = logar.php">
      
      </html>
  
