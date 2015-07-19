@@ -103,7 +103,7 @@ function MM_preloadImages() { //v3.0
   </tr>
   <tr>
    <td rowspan="2" colspan="3" class="w47h175"><img name="index_r3_c8" src="Template/index_r3_c8.png" id="index_r3_c8"/></td>
-   <td class="w1h7"><img src="Template/spacer.gif"/></td>
+   <td><img src="Template/spacer.gif" width="1" height="7" alt="" /></td>
   </tr>
   
   
