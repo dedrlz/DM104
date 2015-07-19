@@ -1,24 +1,29 @@
 ﻿<?php include ('conecta.php');
 ?>
-
-<table width="737" border="0">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Area do Administrador</title>
+</head>
+<body>
+<table id="tabelaProdutos">
   <tr>
-    <td colspan="9" align="center" bgcolor="#999999"><strong>LISTA DE PRODUTOS</strong></td>
+    <td id="cabecalhoLista" colspan="9"><strong>LISTA DE PRODUTOS</strong></td>
   </tr>
   <tr>
-    <td height="39" colspan="9" align="center" valign="middle" bgcolor="#CCCCCC"><form name="form3" method="post" action="LayoutIncluir.php">
+    <td colspan="9"><form name="form3" method="post" action="LayoutIncluir.php">
       <input type="submit" name="Incluir" id="Incluir" value="Incluir Novos Produtos">
     </form></td>
   </tr>
-  <tr>
-    <td width="19" align="center" bgcolor="#FF6633">ID</td>
-    <td width="76" align="center" bgcolor="#FF6633">IMAGEM</td>
-    <td width="56" align="center" bgcolor="#FF6633">NOME</td>
-    <td width="99" align="center" bgcolor="#FF6633">DESCRICAO</td>
-    <td width="51" align="center" bgcolor="#FF6633">PRECO</td>
-    <td width="102" align="center" bgcolor="#FF6633">QUANTIDADE</td>
-    <td width="79" align="center" bgcolor="#FF6633">DATA</td>
-    <td colspan="2" align="center" bgcolor="#FF6633">OPÇÕES</td>
+  <tr >
+    <td>ID</td>
+    <td>IMAGEM</td>
+    <td>NOME</td>
+    <td>DESCRICAO</td>
+    <td>PRECO</td>
+    <td>QUANTIDADE</td>
+    <td>DATA</td>
+    <td colspan="2">OPÇÕES</td>
   </tr>
   
    <?php
@@ -35,15 +40,15 @@
 		$data = $linha['data'];
    ?>  
   
-  <tr>
-    <td align="center" bgcolor="#FFFF66"><?php  echo $id; ?></td>
-    <td align="center" bgcolor="#FFFF66"><img src="<?php  echo $imagem; ?>" width = "70" height = "70"></td>
-    <td align="center" bgcolor="#FFFF66"><?php  echo $nome; ?></td>
-    <td align="center" bgcolor="#FFFF66"><?php  echo $desc; ?></td>
-    <td align="center" bgcolor="#FFFF66"><?php  echo $preco; ?></td>
-    <td align="center" bgcolor="#FFFF66"><?php  echo $quant; ?></td>
-    <td align="center" bgcolor="#FFFF66"><?php  echo $data; ?></td>
-    <td width="73" align="center" bgcolor="#FFFF66"><form name="form1" method="post" action="LayoutEditar.php">
+  <tr id="produtos">
+    <td><?php  echo $id; ?></td>
+    <td><img id="imagemListaProdutos" src="<?php  echo $imagem; ?>"></td>
+    <td><?php  echo $nome; ?></td>
+    <td><?php  echo $desc; ?></td>
+    <td><?php  echo $preco; ?></td>
+    <td><?php  echo $quant; ?></td>
+    <td><?php  echo $data; ?></td>
+    <td><form name="form1" method="post" action="LayoutEditar.php">
       <input type="submit" name="Editar" id="Editar" value="Editar">
       <input name="ID" type="hidden" value="<?php  echo $id; ?>" />
      <input name="imagem" type="hidden" value="<?php  echo $imagem; ?>" />
@@ -53,7 +58,7 @@
     <input name="quantidade" type="hidden" value="<?php  echo $quant; ?>" />
     <input name="data" type="hidden" value="<?php  echo $data; ?>" />
     </form></td>
-    <td width="65" align="center" bgcolor="#FFFF66"><form name="form2" method="post" action="DeletaProduto.php">
+    <td><form name="form2" method="post" action="DeletaProduto.php">
     <input name="ID" type="hidden" value="<?php  echo $id; ?>" />
       <input type="submit" name="Deletar" id="Deletar" value="Deletar">
 
@@ -65,3 +70,5 @@
 </table>
 <p>&nbsp;</p>
 <p><a href="SairdaSessao.php">Sair do Módulo Administrador</a></p>
+</body>
+</html>

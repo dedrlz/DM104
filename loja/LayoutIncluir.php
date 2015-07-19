@@ -33,12 +33,13 @@
   </p>
   <p>
     <label>Data
-      <input name="data" type="text" id="data" value = "<?php echo date('Y/m/d'); ?>" readonly="readonly" />
+      <input name="data" type="text" id="data" value = "<?php echo date('Y/m/d'); ?>" readonly />
     </label>
   </p>
   <p>
-    <input type="submit" name="confirmar" id="confirmar" value="Confirmar" />
+    <input type="submit" name="confirmar" id="confirmar" value="Confirmar" /> 
   </p>
 </form>
+<h1><a href="admin.php">Voltar</a></h1>
 </body>
 </html>

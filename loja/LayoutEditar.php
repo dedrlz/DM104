@@ -40,3 +40,4 @@
     <input type="submit" name="Confirmar" id="Confirmar" value="Confirmar">
   </p>
 </form>
+<h1><a href="admin.php">Voltar</a></h1>
