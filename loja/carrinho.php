@@ -7,8 +7,8 @@
 <title>Carrinho de Compras</title>
 </head>
 <body>
-<p>Carrinho de Compras</p>
-<p>Meus Produtos escolhidos são:</p>
+<h1>Carrinho de Compras</h1>
+<h2>Meus Produtos escolhidos são:</h2>
 <?php
 	if (isset($_POST['id_txt']))
 	{
@@ -121,6 +121,6 @@ session_start();
   </tr>
 </table>
 <p>&nbsp;</p>
-<p><a href="produtos.php">Voltar</a></p>
+<h1><a href="produtos.php">Voltar</a></h1>
 </body>
 </html>

@@ -35,11 +35,12 @@ if (!empty($_SESSION['minhasessao'] ['nome']))
 	   $quantidade = $_SESSION['carrinho'][$i]['quantidade'];
 	   mysql_query ("INSERT INTO itenspedido(idProduto, idPedido, quantidade) VALUES ('$idProduto','$proximoID','$quantidade')");
    }
+    $_SESSION['carrinho'] = NULL;
 ?>
     <html>
 	<head>
    	<H1>Pedido Realizado Com Sucesso !!</H1>
-    <meta http-equiv="refresh" content="3; url = produtos.php">  
+    <meta http-equiv="refresh" content="2; url = produtos.php">  
 	</head>
 	</html>
  <?php }
@@ -49,7 +50,7 @@ else
     <html>
 	<head>
     <h2>Atenção para Efetuar um Pedido você precisa estar Logado com a sua Conta, caso não tenha uma conta por favor Cadastre-se !</h2>
-	<meta http-equiv="refresh" content="3; url = logar.php">
+	<meta http-equiv="refresh" content="2; url = logar.php">
 	</head>
 	</html>
 <?php }?>

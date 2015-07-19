@@ -4,6 +4,12 @@
 	width: 706; 
 	height: 186;
 }
+#tabelaPedidos {
+	background-color: #FF9966;
+	width: 414; 
+	border:medium;
+	text-align:center;	
+}
 #imagemListaProdutos
 {
 	width: 70; 

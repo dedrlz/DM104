@@ -15,7 +15,7 @@ if ($_SESSION['minhasessao'] ['permissoes'] == 1) { ?>
 else if ($_SESSION['minhasessao'] ['permissoes'] == 2){ ?>
     <html>
 	<head>
-	<meta http-equiv="refresh" content="1; url = index.php">
+	<meta http-equiv="refresh" content="1; url = Usuario.php">
 	</head>
 	</html>
  <?php }
