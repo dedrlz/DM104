@@ -2,7 +2,7 @@
 <html><!-- InstanceBegin template="/Templates/teste3.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>index.png</title>
+<title>Produtos a Venda</title>
 <!-- InstanceEndEditable -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">td img {display: block;}</style>
@@ -35,7 +35,7 @@ function MM_preloadImages() { //v3.0
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
 </head>
-<body bgcolor="#ffffff" onload="MM_preloadImages('Template/index_r2_c4_s2.png','Template/index_r2_c8_s2.png','Template/index_r5_c1_s2.png','Template/index_r5_c3_s2.png','Template/index_r5_c6_s2.png','Template/index_r5_c10_s2.png','Template/index_r5_c13_s2.png')">
+<body bgcolor="#ffffff" onLoad="MM_preloadImages('Template/index_r2_c4_s2.png','Template/index_r2_c8_s2.png','Template/index_r5_c1_s2.png','Template/index_r5_c3_s2.png','Template/index_r5_c6_s2.png','Template/index_r5_c10_s2.png','Template/index_r5_c13_s2.png')">
 <table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="1024">
 <!-- fwtable fwsrc="layout.fw.png" fwpage="Página 1" fwbase="index.png" fwstyle="Dreamweaver" fwdocid = "1085286222" fwnested="0" -->
   <tr>
@@ -76,7 +76,7 @@ function MM_preloadImages() { //v3.0
    
    
    <td rowspan="2" colspan="3" class="w103h24">
-     <a href="CadastroClientePrincipal.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r2_c4','','Template/index_r2_c4_s2.png',1)">
+     <a href="CadastroClientePrincipal.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r2_c4','','Template/index_r2_c4_s2.png',1)">
      <img name="index_r2_c4" src="Template/index_r2_c4.png" id="index_r2_c4"/></a>
   </td>
 
@@ -87,7 +87,7 @@ function MM_preloadImages() { //v3.0
   </td>
    
    <td colspan="3" class="w47h17">
-     <a href="logar.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r2_c8','','Template/index_r2_c8_s2.png',1)">
+     <a href="logar.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r2_c8','','Template/index_r2_c8_s2.png',1)">
      <img name="index_r2_c8" src="Template/index_r2_c8.png" id="index_r2_c8"/></a>
   </td>
 
@@ -115,32 +115,32 @@ function MM_preloadImages() { //v3.0
   
   
   <tr>
-   <td class="w200h38"><a href="index.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c1','','Template/index_r5_c1_s2.png',1)"><img name="index_r5_c1" src="Template/index_r5_c1.png" id="index_r5_c1"/></a></td>
+   <td class="w200h38"><a href="index.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r5_c1','','Template/index_r5_c1_s2.png',1)"><img name="index_r5_c1" src="Template/index_r5_c1.png" id="index_r5_c1"/></a></td>
    
    
    <td class="w4h38"><img name="index_r5_c2" src="Template/index_r5_c2.png" id="index_r5_c2"/></td>
    
    
-   <td colspan="2" class="w203h38"><a href="produtos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c3','','Template/index_r5_c3_s2.png',1)"><img name="index_r5_c3" src="Template/index_r5_c3.png" id="index_r5_c3" /></a></td>
+   <td colspan="2" class="w203h38"><a href="produtos.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r5_c3','','Template/index_r5_c3_s2.png',1)"><img name="index_r5_c3" src="Template/index_r5_c3.png" id="index_r5_c3" /></a></td>
    
    
    <td class="w3h38"><img name="index_r5_c5" src="Template/index_r5_c5.png" id="index_r5_c5" /></td>
    
    
 
-   <td colspan="3" class="w201h38"><a href="Mais%20Vendidos.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c6','','Template/index_r5_c6_s2.png',1)"><img name="index_r5_c6" src="Template/index_r5_c6.png" id="index_r5_c6" /></a></td>
+   <td colspan="3" class="w201h38"><a href="Mais%20Vendidos.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r5_c6','','Template/index_r5_c6_s2.png',1)"><img name="index_r5_c6" src="Template/index_r5_c6.png" id="index_r5_c6" /></a></td>
    
    
    <td class="w4h38"><img name="index_r5_c9" src="Template/index_r5_c9.png" id="index_r5_c9" /></td>
    
    
-   <td colspan="2" class="w201h38"><a href="Empresa.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c10','','Template/index_r5_c10_s2.png',1)"><img name="index_r5_c10" src="Template/index_r5_c10.png" id="index_r5_c10" /></a></td>
+   <td colspan="2" class="w201h38"><a href="Empresa.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r5_c10','','Template/index_r5_c10_s2.png',1)"><img name="index_r5_c10" src="Template/index_r5_c10.png" id="index_r5_c10" /></a></td>
    
    
    <td class="w4h38"><img name="index_r5_c12" src="Template/index_r5_c12.png" id="index_r5_c12" /></td>
    
    
-   <td class="w201h38"><a href="Contato.php" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('index_r5_c13','','Template/index_r5_c13_s2.png',1)"><img name="index_r5_c13" src="Template/index_r5_c13.png" id="index_r5_c13" /></a></td>
+   <td class="w201h38"><a href="Contato.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r5_c13','','Template/index_r5_c13_s2.png',1)"><img name="index_r5_c13" src="Template/index_r5_c13.png" id="index_r5_c13" /></a></td>
    
    
    <td colspan="2" class="w3h38"><img name="index_r5_c14" src="Template/index_r5_c14.png" id="index_r5_c14"/></td>
