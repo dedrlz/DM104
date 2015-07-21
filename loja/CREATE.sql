@@ -12,9 +12,9 @@ data date null,
 primary key(id)
 );
 
-INSERT INTO `loja`.`produtos` (`id`, `imagem`, `nome`, `descricao`, `preco`, `quantidade`, `data`) VALUES (NULL, 'imagens/01.jpg', 'Celular', 'Apple 5', '300', '5', '2015-07-16');
-INSERT INTO `loja`.`produtos` (`id`, `imagem`, `nome`, `descricao`, `preco`, `quantidade`, `data`) VALUES (NULL, 'imagens/02.jpg', 'Camera', 'Camera Sony', '200', '2', '2015-07-16');
-INSERT INTO `loja`.`produtos` (`id`, `imagem`, `nome`, `descricao`, `preco`, `quantidade`, `data`) VALUES (NULL, 'imagens/03.jpg', 'Televisao', 'LG', '100', '1', '2015-07-16');
+INSERT INTO produtos (`id`, `imagem`, `nome`, `descricao`, `preco`, `quantidade`, `data`) VALUES (NULL, 'imagens/01.jpg', 'Celular', 'Apple 5', '300', '5', '2015-07-16');
+INSERT INTO produtos (`id`, `imagem`, `nome`, `descricao`, `preco`, `quantidade`, `data`) VALUES (NULL, 'imagens/02.jpg', 'Camera', 'Camera Sony', '200', '2', '2015-07-16');
+INSERT INTO produtos (`id`, `imagem`, `nome`, `descricao`, `preco`, `quantidade`, `data`) VALUES (NULL, 'imagens/03.jpg', 'Televisao', 'LG', '100', '1', '2015-07-16');
 
 CREATE TABLE usuarios(
 id int NOT NULL AUTO_INCREMENT,
@@ -27,8 +27,7 @@ data date null,
 primary key(id)
 );
 
-INSERT INTO `loja`.`usuarios` (`id`, `nome`, `usuario`, `pass`, `permissoes`, `imagem`, `data`) VALUES (NULL, 'Luiz Felipe Pereira', 'luiz', '123', '1', NULL, '2015-07-01');
-INSERT INTO `loja`.`usuarios` (`id`, `nome`, `usuario`, `pass`, `permissoes`, `imagem`, `data`) VALUES (NULL, 'teste', 'teste', '123', '2', NULL, '2015-07-01');
+INSERT INTO usuarios (`id`, `nome`, `usuario`, `pass`, `permissoes`, `imagem`, `data`) VALUES (NULL, 'Luiz Felipe Pereira', 'luiz', '123', '1', NULL, '2015-07-01');
 
 CREATE TABLE pedidos(
 id int NOT NULL AUTO_INCREMENT,

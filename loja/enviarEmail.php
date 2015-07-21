@@ -25,7 +25,6 @@ $hora_envio = date('H:i:s');
      
     $enviaremail = mail($destino, $assunto, $arquivo, $headers);
     if($enviaremail){
-	echo "EMAIL ENVIADO COM SUCESSO";
     $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
     echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
     } else {
@@ -33,3 +32,10 @@ $hora_envio = date('H:i:s');
     echo "";
     }
 ?>
+
+    <html>
+	<head>
+   	<H1>Email Enviado Com Sucesso !!</H1>
+    <meta http-equiv="refresh" content="1; url = Contato.php">  
+	</head>
+	</html>
